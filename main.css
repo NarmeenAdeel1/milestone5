@@ -1,0 +1,99 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    color: black;
+}
+
+form{
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(5, 36, 122); 
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgb(3, 85, 74);
+    padding: 20px;
+
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+#preview {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+fieldset{
+    border: 2px solid rgb(136, 4, 26);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(219, 73, 80);
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    text-size-adjust: auto;
+    color:black ;
+}
+label{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: calc(100%);
+    padding: 8px;
+    margin: 4px;
+    border: 1px rgb(237, 14, 245);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#toggle-button {
+
+    display: inline;
+    margin: 10px 0;
+  }
+  
+  #skills-section {
+    display: block;
+  }
+button{
+    display: inline;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(19, 189, 231);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgb(122, 52, 212);
+}
+
+ #ResumeGenerator{
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(104, 3, 8); 
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgb(3, 85, 74);
+    padding: 20px;
+ }
+
+ #ResumeGenerator h2{
+
+color: black;
+ }
